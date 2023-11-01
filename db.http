@@ -1,0 +1,16 @@
+POST http://localhost:1234/insert
+Content-Type: application/json
+
+{
+    "seed_id":15,
+    "seed_name":"Carrotseed",
+    "seed_type":"Hybrid",
+    "seed_recommended_period":"3years",
+    "seed_recommended_season":"Winter",
+    "seed_price":"Rs:90",
+    "seed_quantity":"Sevenkg"
+}
+
+###
+
+GET http://localhost:1234/listAll
